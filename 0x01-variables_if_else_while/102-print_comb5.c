@@ -19,7 +19,7 @@ int main(void)
 		while (seconDigit <= 99)
 		{
 			if (seconDigit != firstDigit)
-			{	
+			{
 				putchar((firstDigit / 10) + 48);
 				putchar((firstDigit % 10) + 48);
 				putchar(' ');
