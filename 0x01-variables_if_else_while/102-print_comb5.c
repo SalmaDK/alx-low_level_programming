@@ -19,22 +19,22 @@ int main(void)
 		while (seconDigit <= 99)
 		{
 			if (seconDigit != firstDigit)
-			{
-		putchar((firstDigit / 10) + 48);
-		putchar((firstDigit % 10) + 48);
-		putchar(' ');
-		putchar((seconDigit / 10) + 48);
-		putchar((seconDigit % 10) + 48);
+			{	
+				putchar((firstDigit / 10) + 48);
+				putchar((firstDigit % 10) + 48);
+				putchar(' ');
+				putchar((seconDigit / 10) + 48);
+				putchar((seconDigit % 10) + 48);
 
-		if (firstDigit != 98 || seconDigit != 99)
-			{
-			putchar(',');
-			putchar(' ');
+				if (firstDigit != 98 || seconDigit != 99)
+				{
+				putchar(',');
+				putchar(' ');
+				}
 			}
-			}
-		seconDigit++;
+			seconDigit++;
 		}
-	firstDigit++;
+		firstDigit++;
 	}
 	putchar('\n');
 
