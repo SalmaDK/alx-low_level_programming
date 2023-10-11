@@ -1,4 +1,3 @@
-carrie@ubuntu:/debugging$ cat 3-print_remaining_days.c
 #include <stdio.h>
 #include "main.h"
 
