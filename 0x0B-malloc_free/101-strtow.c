@@ -4,8 +4,7 @@
  *  * count_word - helper function to count the number of words in a string
  *   * @s: string to evaluate
  *    *
- *     * Return: number of words
- *     
+ *     * Return: number of words   
  *     */
 int count_word(char *s)
 {
