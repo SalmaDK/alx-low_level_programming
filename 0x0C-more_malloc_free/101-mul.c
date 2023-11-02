@@ -6,6 +6,9 @@
     * @str: string to move
     * @l: size of string
     *
+    * This function takes a string and moves it one place to the left while printing it.
+    * It also frees the memory allocated for the string.
+    *
     * Return: void
     */
 void _print(char *str, int l)
