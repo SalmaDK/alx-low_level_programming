@@ -6,6 +6,9 @@
     * @str: string to move
     * @l: size of string
     *
+    *@str:String to move.
+    *@l:Size of the string.
+    *
     * Return: void
     */
 void _print(char *str, int l)
