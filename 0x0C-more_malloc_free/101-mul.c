@@ -1,16 +1,17 @@
 #include "main.h"
+#include<stddef.h>
+#include<stdlib.h>
+#include<stdio.h>
 
+/**
+* _print - moves a string one place to the left and prints the string
+* @str: string to move
+* @l: size of string
+* @str:String to move.
+* @l:Size of the string.
+* Return: void
+*/
 
-   /**
-    * _print - moves a string one place to the left and prints the string
-    * @str: string to move
-    * @l: size of string
-    *
-    *@str:String to move.
-    *@l:Size of the string.
-    *
-    * Return: void
-    */
 void _print(char *str, int l)
 {
 	int i, j;
@@ -69,7 +70,6 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 /**
 * check_for_digits - checks the arguments to ensure they are digits
 * @av: pointer to arguments
-*
 * Return: 0 if digits, 1 if not
 */
 int check_for_digits(char **av)
@@ -89,10 +89,9 @@ int check_for_digits(char **av)
 
 
 /**
-* init - initializes a string
+* init - initializes a string.
 * @str: sting to initialize
 * @l: length of strinf
-*
 * Return: void
 */
 void init(char *str, int l)
@@ -109,7 +108,6 @@ void init(char *str, int l)
 * main - multiply two numbers
 * @argc: number of arguments
 * @argv: argument vector
-*
 * Return: zero, or exit status of 98 if failure
 */
 
